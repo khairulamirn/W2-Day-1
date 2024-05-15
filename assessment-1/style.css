@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+#hero {
+    height: 600px;
+    background-image: url(assets/Desktop\ -\ 1.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hero > #nav {
+    max-width: 1000px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+#hero > #nav > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+}
+
+#hero > #nav > nav > h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#hero > #nav > nav > div > a {
+    all: unset;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button#login {
+    color: white;
+    font-weight: bold;
+}
+
+button#register {
+    color: white;
+    background: #23a6f0;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    margin-left: 20px; 
+}
+
+#hero > .text {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+} 
+
+#hero > .text > h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 60%; 
+} 
+
+#hero > .text > p {
+    font-size: 18px;
+    width: 50%; 
+    line-height: 1.5;
+}
+
+button#quote {
+    color: white;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: #23a6f0;
+}
+
+button#learn {
+    border-color: #23a6f0;
+    border-style: solid;
+    border-width: 1px;
+    color: #23a6f0;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+#mid {
+    height: 600px;
+    background-color: rgb(253, 253, 253);
+}
+
+#mid > .text {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;   
+    gap: 10px;
+}
+
+#mid > .text > h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 60%;
+    margin-top: 65px;
+} 
+
+#mid > .text > p {
+    font-size: 18px;
+    width: 45%; 
+    line-height: 1.5;
+}
+
+#mid > .boxes {
+    margin:auto;
+    padding-top: 50px;
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+#mid > .boxes > .box {
+    background-color: white;
+    margin-right: 30px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+#mid > .boxes > .box > img {
+    margin: auto 10px auto 20px;
+    width: 60px;
+    height: 60px;
+}
+
+#mid > .boxes > .box > p {
+    margin-top: 20px;
+    margin-right: 70px;
+    width: 30%;
+    height: 40px;
+    font-size: 14px;
+}
+
+#bottom {
+    height: 600px;
+}
+
+#bottom > .text {
+    padding-top: 85px;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#bottom > .text > h1 {
+    font-size: 2em;
+}
+
+#bottom > .text > p {
+    font-size: 16px;
+    width: 50%;
+    text-align:center;
+}
+
+#bottom > .client  {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#bottom > .client > .cover-left {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom > .client > .cover-right {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+#bottom > .client > .cover-left > .box-left {
+    padding-left: 10px;
+    padding-top: 45px;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+#bottom > .client > .cover-right > .box-right {
+    padding-left: 10px;
+    padding-top: 45px;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+
+#bottom > .client > .cover-left > .box-left > .stars {
+    width: 100px;
+    height: 50px;
+}
+
+#bottom > .client > .cover-right > .box-right > .stars {
+    width: 100px;
+    height: 50px;
+}
+
+footer {
+    height: 300px;
+    background-color: #252B42;
+    color: white;
+}
+
+footer > .footer {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    flex-wrap: nowrap;
+}
+
+footer > .footer > .text {
+    width: 500px;
+    height: 100px;
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+
+footer > .footer > .text > h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer > .footer > .text > p {
+    text-align: left;
+    font-size: 16px;
+}
+
+footer > .footer > .email {
+    width: 410px;
+
+}
+
+footer > .footer > .email > input {
+    background-color: #F9F9F9;
+    width: 300px;
+    height: 55px;
+    padding-left: 15px;
+    font-family: "montserrat";
+    border: 1px solid #F9F9F9;
+    border-radius: 7px 0 0 7px;
+}
+
+footer > .footer > .email > button {
+    background-color: #23A6F0;
+    width: 100px;
+    height: 53px;
+    text-align: center;
+    border: 1px solid #F9F9F9;
+    border-radius: 0 7px 7px 0;
+}
+
+#social-media {
+    height: 70px;
+}
+#social-media > .box > .social-media {
+    width: 1100px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#social-media > .box > .social-media > p {
+    margin-left: 100px;
+    margin-right: 430px;
+}
+
+#social-media > .box > .social-media > img {
+    padding-right: 30px;
+}
